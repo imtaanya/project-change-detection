@@ -1,0 +1,27 @@
+
+# Sentinel Data Download & Processing
+
+geopandas>=0.14
+shapely>=2.0
+rasterio>=1.3
+numpy>=1.26
+matplotlib>=3.9
+tqdm>=4.66
+scikit-image>=0.24
+scikit-learn>=1.5
+opencv-python>=4.10
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+
+# Satellite data access
+sentinelsat>=1.2.0
+requests>=2.31.0
+
+# Configuration and utilities
+pyyaml>=6.0
+pathlib2>=2.3.0
+
+
