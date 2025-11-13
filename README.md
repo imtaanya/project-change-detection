@@ -22,8 +22,8 @@ The workflow covers data download, preprocessing, vegetation index computation, 
 
 ## Data Download
 
-To download Sentinel-1 imagery, use the `automate_sentinel_1_download.py` script.
-To download Sentinel-1 imagery, use the `.automate_sentinel_2_download.py` script
+1. To download Sentinel-1 imagery, use the `automate_sentinel_1_download.py` script.
+2. To download Sentinel-1 imagery, use the `.automate_sentinel_2_download.py` script
 
 This script:
 1. Searches for Sentinel-2 **L2A** products (these are atmospherically corrected and have less cloud cover).
@@ -32,7 +32,7 @@ This script:
 
 # Assumptions and Limitations
 
-   Add username and password in config, For sentinel-1, add the data range that you want to download
-   Add the date range for downloading sentinel-2 data in `automate_sentinel_2_download.py`
+1. Add username and password in config, For sentinel-1, add the data range that you want to download.
+2. Add the date range for downloading sentinel-2 data in `automate_sentinel_2_download.py`
 
    
